@@ -7,7 +7,7 @@ const upload = async (file) => {
 
   try {
     const res = await axios.post(
-      "https://api.cloudinary.com/v1_1/dtjgdz8zn/image/upload",
+      "PUT YOUR KEY HERE FROM CLOUDINARY",
       data
     );
 
